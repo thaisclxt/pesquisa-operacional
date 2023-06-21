@@ -1,0 +1,18 @@
+data;
+
+set INIMIGOS := homens mulheres;
+set VENENOS := alfa beta;
+
+param eliminar :=
+    homens        1
+    mulheres      5;
+
+param disponibilidade :=
+    alfa      100
+    beta      20;
+
+param proporcao :=
+    alfa      2
+    beta      1;
+
+end;
