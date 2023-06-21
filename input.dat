@@ -1,10 +1,15 @@
 data;
 
-param peso_alfa := 500;
-param peso_beta := 2000;
-param qtd_homens := 20;
-param qtd_mulheres := 10;
+set VENENOS := alfa beta;
 
-set INIMIGOS := Homens Mulheres;
+param disponibilidade_alfa := 500;
+param disponibilidade_beta := 2000;
+
+param quantidade_homens := 20;
+param quantidade_mulheres := 10;
+
+param proporcao_veneno :=
+    alfa 3
+    beta 1;
 
 end;

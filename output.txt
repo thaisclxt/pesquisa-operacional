@@ -10,7 +10,7 @@ Objective:  Efeito = 115 (MAXimum)
      1 Efeito                    115                             
      2 disp_alfa                 486                         500 
      3 disp_beta                 162                        2000 
-     4 proporcao                   0            -0             = 
+     4 paladar                     0            -0             = 
      5 homens                     20            20               
      6 mulheres                   95            10               
 
