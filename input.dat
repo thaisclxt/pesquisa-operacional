@@ -1,15 +1,18 @@
 data;
 
+set INIMIGOS := homens mulheres;
 set VENENOS := alfa beta;
 
-param disponibilidade_alfa := 500;
-param disponibilidade_beta := 2000;
+param eliminar :=
+    homens        20
+    mulheres      10;
 
-param quantidade_homens := 20;
-param quantidade_mulheres := 10;
+param disponibilidade :=
+    alfa      500
+    beta      2000;
 
-param proporcao_veneno :=
-    alfa 3
-    beta 1;
+param proporcao :=
+    alfa      3
+    beta      1;
 
 end;
