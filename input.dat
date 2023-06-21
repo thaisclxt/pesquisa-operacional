@@ -1,0 +1,10 @@
+data;
+
+param peso_alfa := 500;
+param peso_beta := 2000;
+param qtd_homens := 20;
+param qtd_mulheres := 10;
+
+set INIMIGOS := Homens Mulheres;
+
+end;
