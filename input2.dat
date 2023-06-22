@@ -15,4 +15,10 @@ param proporcao :=
     alfa      5
     beta      1;
 
+param eficacia :=
+    homens alfa        20
+    homens beta        5
+    mulheres alfa      9
+    mulheres beta      1;
+
 end;

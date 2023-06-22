@@ -8,11 +8,17 @@ param eliminar :=
     mulheres      5;
 
 param disponibilidade :=
-    alfa      100
-    beta      20;
+    alfa      10
+    beta      10;
 
 param proporcao :=
     alfa      2
     beta      1;
+
+param eficacia :=
+    homens alfa        1
+    homens beta        1
+    mulheres alfa      1
+    mulheres beta      1;
 
 end;
